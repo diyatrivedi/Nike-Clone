@@ -1,6 +1,6 @@
-import { registernikeLogo } from "../assets/images"
-import {useNavigate} from "react-router-dom"
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { registernikeLogo } from "../assets/images";
 const Register = () => {
   const navigate = useNavigate();
   const [user, setUser] = useState({
